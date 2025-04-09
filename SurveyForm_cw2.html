@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Survey Form</title>
+</head>
+<body>
+
+  <h1 id="title">Survey Form</h1>
+  <p id="description">Please fill out the short form below.</p>
+
+  <form id="survey-form">
+    
+    <label id="name-label">Name:</label><br>
+    <input type="text" id="name" required placeholder="Your name"><br><br>
+
+    <label id="email-label">Email:</label><br>
+    <input type="email" id="email" required placeholder="Your email"><br><br>
+
+    <label id="number-label">Age:</label><br>
+    <input type="number" id="number" min="10" max="100" placeholder="Your age"><br><br>
+
+    <label>How did you hear about us?</label><br>
+    <select id="dropdown">
+      <option>Internet</option>
+      <option>Friends</option>
+    </select><br><br>
+
+    <label>How would you rate our service?</label><br>
+    <input type="radio" name="rating" value="good"> Good
+    <input type="radio" name="rating" value="average"> Average<br><br>
+
+    <label>What do you like?</label><br>
+    <input type="checkbox" value="quality"> Quality
+    <input type="checkbox" value="price"> Price<br><br>
+
+    <label>Comments:</label><br>
+    <textarea rows="3" placeholder="Your comments..."></textarea><br><br>
+
+    <button id="submit" type="submit">Submit</button>
+
+  </form>
+
+</body>
+</html>
