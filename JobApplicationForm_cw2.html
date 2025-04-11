@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Job Application Form</title>
+    <link rel="stylesheet" href="JobApp_cw2.css"
+</head>
+<body> 
+    <div class="container">
+        <form>
+            <h2>Job Application Form</h2>
+            <input type="text" id="name" placeholder="Full Name" required>
+            <input type="email" id="email"placeholder="Email Address" required>
+
+            <select id="position" required>
+                <option value="">Select your experience level</option>
+                <option value="junior">Junior</option>
+                <option value="mid">Mid</option>
+                <option value="senior">Senior</option>
+            </select>
+
+            <fieldset class="radio-group">
+                <label>
+                    <input type="radio" name='availability' value="full-time" required> Full Time
+                </label>
+                <label>
+                    <input type="radio" name='availability' value="part-time" required> Part Time
+                </label>
+                <label>
+                    <input type="radio" name='availability' value="freelance" required> Freelance
+                </label>
+            </fieldset>
+            <textarea id="message" placeholder="Tell us sth about you ;)" required></textarea>
+             <button type="submit">Submit Application</button>
+        </form>
+    </div>
+</body>
+</html>
