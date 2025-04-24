@@ -1,0 +1,56 @@
+body {
+    margin: 0;
+    font-family: sans-serif;
+    background: #f0f0f0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  #playing-cards {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+  }
+  
+  .card {
+    width: 100px;
+    height: 140px;
+    background: white;
+    border: 1px solid #ccc;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 20px;
+  }
+  
+  .left, .middle, .right {
+    width: 100%;
+    display: flex;
+  }
+  
+  .left {
+    justify-content: flex-start;
+    font-size: 0.9rem;
+  }
+  
+  .middle {
+    justify-content: center;
+    font-size: 1.5rem;
+  }
+  
+  .right {
+    justify-content: flex-end;
+    font-size: 0.9rem;
+  }
+  
+  .red {
+    color: red;
+  }
+  
+  .black {
+    color: black;
+  }
