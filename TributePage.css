@@ -1,0 +1,67 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #1c1c1c;
+    text-align: center;
+  }
+  
+  #main {
+    max-width: 800px;
+    margin: 2rem auto;
+    padding: 2rem;
+    background-color: #ffffff;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    text-align: left;
+  }
+  
+  #title {
+    font-size: 2.8rem;
+    color: #5a32a3; /* Laker purple */
+    text-align: center;
+    margin-bottom: 1.5rem;
+  }
+  
+  #img-div {
+    margin: 1rem auto;
+    text-align: center;
+  }
+  
+  #image {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.15);
+  }
+  
+  #img-caption {
+    margin-top: 0.75rem;
+    font-style: italic;
+    color: #555;
+  }
+  
+  #tribute-info p {
+    margin-bottom: 1.5rem;
+    font-size: 1.1rem;
+    color: #333;
+  }
+  
+  #tribute-info strong {
+    color: #000;
+  }
+  
+  #tribute-link {
+    font-weight: bold;
+    color: #5a32a3;
+    text-decoration: none;
+  }
+  
+  #tribute-link:hover {
+    text-decoration: underline;
+  }
+  
